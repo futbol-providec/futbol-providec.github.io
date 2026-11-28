@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Футбольный провидец</title>
+<meta name="description" content="Вероятности исходов футбольных матчей высших лиг мира, сильных вторых дивизионов и еврокубков (Лига чемпионов, Лига Европы, Лига конференций): модель Диксона–Коулза по голам и xG, прогноз ударов, угловых, фолов, карточек, офсайдов и аутов, честная проверка точности.">
+<meta name="color-scheme" content="light dark">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css?v=1630928429">
+</head>
+<body>
+<header class="top">
+  <div class="wrap top-in">
+    <a class="brand" href="#/" aria-label="Футбольный провидец — на главную">
+      <img src="favicon.svg" alt="" width="28" height="28">
+      <span>Футбольный провидец</span>
+    </a>
+    <nav class="nav" aria-label="Разделы">
+      <a href="#/" data-nav="matches">Матчи</a>
+      <a href="#/cups" data-nav="cups">Еврокубки</a>
+      <a href="#/picks" data-nav="picks">1X · X2</a>
+      <a href="#/stats" data-nav="stats">Статистика</a>
+      <a href="#/leagues" data-nav="leagues">Лиги</a>
+      <a href="#/accuracy" data-nav="accuracy">Точность</a>
+      <a href="#/method" data-nav="method">Методика</a>
+      <a href="#/pro" data-nav="pro">Закрытый</a>
+    </nav>
+    <button class="theme" id="themeBtn" type="button" aria-label="Сменить тему">◐</button>
+  </div>
+</header>
+
+<main class="wrap" id="app" aria-live="polite">
+  <p class="loading">Загрузка…</p>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <p id="footMeta"></p>
+    <p>Вероятности считает модель сайта; это оценка, а не гарантия и не рекомендация делать ставки. 18+.</p>
+  </div>
+</footer>
+<noscript><p class="wrap">Для работы сайта нужен JavaScript.</p></noscript>
+<script src="app.js?v=4e1e0a2872"></script>
+</body>
+</html>
